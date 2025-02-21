@@ -1,4 +1,4 @@
-<h1 class="text-xl font-bold underline">Hello world!</h1>
+<h1 class="text-green-400">Hello world!</h1>
 
 <style lang="postcss">
   @reference "tailwindcss/theme";
