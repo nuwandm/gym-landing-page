@@ -1,8 +1,7 @@
-<h1>Hello world!</h1>
+<script>
+  import Hero from "../components/Hero.svelte";
+</script>
 
-<style lang="postcss">
-  @reference "tailwindcss/theme";
-  :global(html) {
-    background-color: theme(--color-gray-100);
-  }
-</style>
+<main class="flex flex-col">
+  <Hero />
+</main>
