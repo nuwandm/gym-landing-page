@@ -1,4 +1,5 @@
 <script>
+  import Conversion from "../components/Conversion.svelte";
   import FaQs from "../components/FAQs.svelte";
   import Hero from "../components/Hero.svelte";
   import Products from "../components/Products.svelte";
@@ -10,4 +11,5 @@
   <Products />
   <Reviews />
   <FaQs />
+  <Conversion />
 </main>

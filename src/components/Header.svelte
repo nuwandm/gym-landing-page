@@ -1,4 +1,6 @@
-<script></script>
+<script>
+  import { openModal } from "../store/store";
+</script>
 
 <header class="flex flex-col relative z-20">
   <div
@@ -9,7 +11,11 @@
         Max<span class="text-indigo-400 text-xl">Fit</span>
       </h1>
     </a>
-    <button aria-label="Open menu" class="md:hidden grid place-items-center">
+    <button
+      onclick={() => ($openModal = true)}
+      aria-label="Open menu"
+      class="md:hidden grid place-items-center"
+    >
       <i class="fa-solid fa-bars"></i>
     </button>
     <nav class="hidden md:flex items-center gap-4 lg:gap-6 font-semibold">
