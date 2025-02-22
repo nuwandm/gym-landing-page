@@ -1,5 +1,4 @@
 <script>
-  export let dark;
 </script>
 
 <div class="flex items-center gap-4">

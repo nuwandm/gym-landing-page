@@ -11,7 +11,7 @@
     <div class="flex flex-col gap-4">
       <p class="font-bold poppins text-base sm:text-lg">Support</p>
       <a
-        href=""
+        href="https://twitter.com"
         target="_blank"
         class="cursor-pointer hover:text-indigo-400 duration-200"
       >
@@ -21,7 +21,7 @@
     <div class="flex flex-col gap-4">
       <p class="font-bold poppins text-base sm:text-lg">Research</p>
       <a
-        href=""
+        href="https://twitter.com"
         target="_blank"
         class="cursor-pointer hover:text-indigo-400 duration-200"
       >
@@ -31,35 +31,35 @@
     <div class="flex flex-col gap-4">
       <p class="font-bold poppins text-base sm:text-lg">Follow Us</p>
       <a
-        href=""
+        href="https://instagram.com"
         target="_blank"
         class="cursor-pointer hover:text-indigo-400 duration-200"
       >
-        <i class="fa-brands fa-instagram pr-2" />
+        <i class="fa-brands fa-instagram pr-2"></i>
         Instagram</a
       >
       <a
-        href=""
+        href="https://youtube.com"
         target="_blank"
         class="cursor-pointer hover:text-indigo-400 duration-200"
       >
-        <i class="fa-brands fa-youtube pr-2" />
+        <i class="fa-brands fa-youtube pr-2"></i>
         YouTube</a
       >
       <a
-        href=""
+        href="https://facebook.com"
         target="_blank"
         class="cursor-pointer hover:text-indigo-400 duration-200"
       >
-        <i class="fa-brands fa-facebook pr-2" />
+        <i class="fa-brands fa-facebook pr-2"></i>
         Facebook</a
       >
       <a
-        href=""
+        href="https://twitter.com"
         target="_blank"
         class="cursor-pointer hover:text-indigo-400 duration-200"
       >
-        <i class="fa-brands fa-twitter pr-2" />
+        <i class="fa-brands fa-twitter pr-2"></i>
         Twitter</a
       >
     </div>
