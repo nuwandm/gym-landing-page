@@ -95,30 +95,3 @@ user reviews
 faq
 conversion-
 footer -->
-
-<style>
-  /* Drop shadow effect */
-  .shadow-lg {
-    box-shadow: 0px 4px 10px rgba(0, 128, 0, 0.5);
-  }
-
-  /* Pulse animation */
-  @keyframes pulse {
-    0% {
-      transform: scale(1);
-      box-shadow: 0px 4px 10px rgba(0, 128, 0, 0.5);
-    }
-    50% {
-      transform: scale(1.1);
-      box-shadow: 0px 6px 15px rgba(0, 128, 0, 0.6);
-    }
-    100% {
-      transform: scale(1);
-      box-shadow: 0px 4px 10px rgba(0, 128, 0, 0.5);
-    }
-  }
-
-  .animate-pulse {
-    animation: pulse 1.5s infinite;
-  }
-</style>
