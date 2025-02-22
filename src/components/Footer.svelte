@@ -54,14 +54,6 @@
         <i class="fa-brands fa-facebook pr-2"></i>
         Facebook</a
       >
-      <a
-        href="https://twitter.com"
-        target="_blank"
-        class="cursor-pointer hover:text-indigo-400 duration-200"
-      >
-        <i class="fa-brands fa-twitter pr-2"></i>
-        Twitter</a
-      >
     </div>
   </div>
 </footer>
