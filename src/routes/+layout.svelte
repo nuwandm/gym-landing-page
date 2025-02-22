@@ -3,9 +3,9 @@
   import CtAs from "../components/CTAs.svelte";
   import Footer from "../components/Footer.svelte";
   import Header from "../components/Header.svelte";
-
   import { openModal } from "../store/store";
 
+  let whatsappNumber = "+94714557027";
   let y;
   $: outerHeight = 0;
 
@@ -70,9 +70,24 @@
     <Header />
   </div>
 {/if}
+
+<div class="fixed bottom-6 right-6 z-50">
+  <a
+    href={`https://wa.me/${whatsappNumber}`}
+    target="_blank"
+    class="flex items-center gap-3 bg-green-500 text-white px-5 py-3 rounded-full shadow-xl
+           hover:bg-green-600 transition-all duration-300 ease-in-out transform hover:scale-105 animate-bounce"
+    aria-label="Chat on WhatsApp"
+  >
+    <i class="fa-brands fa-whatsapp text-3xl"></i>
+    <span class="text-lg font-semibold">Chat With Us</span>
+  </a>
+</div>
+
 <slot />
 <Footer />
 <svelte:window bind:scrollY={y} bind:outerHeight />
+
 <!-- header
 hero
 product description
@@ -80,3 +95,30 @@ user reviews
 faq
 conversion-
 footer -->
+
+<style>
+  /* Drop shadow effect */
+  .shadow-lg {
+    box-shadow: 0px 4px 10px rgba(0, 128, 0, 0.5);
+  }
+
+  /* Pulse animation */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      box-shadow: 0px 4px 10px rgba(0, 128, 0, 0.5);
+    }
+    50% {
+      transform: scale(1.1);
+      box-shadow: 0px 6px 15px rgba(0, 128, 0, 0.6);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0px 4px 10px rgba(0, 128, 0, 0.5);
+    }
+  }
+
+  .animate-pulse {
+    animation: pulse 1.5s infinite;
+  }
+</style>
