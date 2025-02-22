@@ -12,7 +12,7 @@
       </h1>
     </a>
     <button
-      on:click={() => ($openModal = true)}
+      onclick={() => ($openModal = true)}
       aria-label="Open menu"
       class="md:hidden grid place-items-center"
     >
